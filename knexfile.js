@@ -32,7 +32,7 @@ module.exports = {
 		connection: {
 			host: 'localhost',
 			database: 'carcareapp_api',
-			user:     'root',
+			user:     'carcareapp_user',
 			password: 'fa0b579a'
 		},
 		pool: {
