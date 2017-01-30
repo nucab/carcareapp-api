@@ -21,6 +21,7 @@ module.exports = {
    */
   deploy : {
     production : {
+      key  : "./ssh/id_rsa",
       user : "carcareapp",
       host : "138.197.108.171",
       ref  : "origin/master",
