@@ -30,9 +30,9 @@ module.exports = {
 	production: {
 		client: 'mysql',
 		connection: {
-			host: 'us-cdbr-iron-east-04.cleardb.net',
-			database: 'heroku_c74e45e7d9a17bc',
-			user:     'b50d657e9a2bcd',
+			host: 'localhost',
+			database: 'carcareapp_api',
+			user:     'root',
 			password: 'fa0b579a'
 		},
 		pool: {
